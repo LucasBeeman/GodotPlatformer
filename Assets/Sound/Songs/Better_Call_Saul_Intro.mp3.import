@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/Better_Call_Saul_Intro.mp3-4b326ca7c5eac33c4f3085edf5902f66.mp3str"
+
+[deps]
+
+source_file="res://Assets/Sound/Songs/Better_Call_Saul_Intro.mp3"
+dest_files=[ "res://.import/Better_Call_Saul_Intro.mp3-4b326ca7c5eac33c4f3085edf5902f66.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0
