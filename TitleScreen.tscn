@@ -1,6 +1,7 @@
-[gd_scene load_steps=5 format=2]
+[gd_scene load_steps=6 format=2]
 
 [ext_resource path="res://Assets/BD.jpg" type="Texture" id=1]
+[ext_resource path="res://Assets/Quez1.jpg" type="Texture" id=2]
 [ext_resource path="res://Assets/3dsaulcover.jpg" type="Texture" id=3]
 [ext_resource path="res://TitleScreen.gd" type="Script" id=4]
 [ext_resource path="res://Assets/Sound/Songs/Better_Call_Saul_Intro.mp3" type="AudioStream" id=5]
@@ -27,8 +28,7 @@ margin_right = 1125.0
 margin_bottom = 212.0
 focus_mode = 2
 meta_underlined = false
-text = "Platformer
-"
+text = "Platformer"
 selection_enabled = true
 
 [node name="StartButton" type="Button" parent="."]
@@ -48,6 +48,11 @@ text = "PLEASE FOR THE LOVE OF GOD MAKE IT STOP"
 [node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="."]
 stream = ExtResource( 5 )
 autoplay = true
+
+[node name="Quez1" type="Sprite" parent="."]
+position = Vector2( 1542, 650 )
+scale = Vector2( 0.165509, 0.168651 )
+texture = ExtResource( 2 )
 
 [connection signal="pressed" from="StartButton" to="." method="_on_StartButton_pressed"]
 [connection signal="pressed" from="QuitButton" to="." method="_on_QuitButton_pressed"]
