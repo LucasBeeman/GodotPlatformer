@@ -1,11 +1,7 @@
 extends Node2D
 
+func _on_StartButton_pressed():
+	get_tree().change_scene("res://LevelOne.tscn")
 
-# Declare member variables here. Examples:
-# var a = 2
-# var b = "text"
-
-
-# Called when the node enters the scene tree for the first time.
-func _ready():
-	pass 
+func _on_QuitButton_pressed():
+	get_tree().quit()
