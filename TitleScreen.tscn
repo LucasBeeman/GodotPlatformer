@@ -21,11 +21,11 @@ position = Vector2( 339, 260 )
 scale = Vector2( 0.185833, 0.485185 )
 texture = ExtResource( 3 )
 
-[node name="RichTextLabel" type="RichTextLabel" parent="."]
-margin_left = 866.0
-margin_top = 120.0
-margin_right = 1125.0
-margin_bottom = 212.0
+[node name="RichTextLabel" type="RichTextLabel" parent="NinePatchRect"]
+margin_left = 868.0
+margin_top = 118.0
+margin_right = 1127.0
+margin_bottom = 210.0
 focus_mode = 2
 meta_underlined = false
 text = "Platformer"

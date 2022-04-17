@@ -1,8 +1,0 @@
-[gd_scene format=2]
-
-[node name="Node2D" type="Node2D"]
-
-[node name="RichTextLabel" type="RichTextLabel" parent="."]
-margin_right = 294.0
-margin_bottom = 183.0
-text = "SHOW YO TITTIES BITCH"
